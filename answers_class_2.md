@@ -1,50 +1,50 @@
 # answers_class_2
 Working from DAT-DC-10/data directory
 
-Question 1
-Command: 
+## Question 1
+#### Command: 
   * head chipotle.tsv
   * tail chipotle.tsv
 
-Answer: 
+#### Answer: 
   * Each column describes an aspect of a Chipotle menu item, each row is an order or instance of a Chipotle menu item.
 
-Question 2
-Command: 
+## Question 2
+#### Command: 
   * tail chipotle.tsv
 
-Answer: 
+#### Answer: 
   * According to the order_id, there are 1834 orders.
 
 
-Question 3
-Command: 
+## Question 3
+#### Command: 
   * wc -l chipotle.tsv 
 
-Answer: 
+#### Answer: 
   * There are 4623 lines in this file.
 
-Question 4
-Command:
+## Question 4
+#### Command:
   * cat chipotle.tsv | grep "Steak Burrito" | wc -l
   * cat chipotle.tsv | grep “Chicken Burrito" | wc -l
 
-Answer: 
+#### Answer: 
   * 368 orders of Steak Burritos, 553 orders of Chicken Burritos. Chicken is more popular than steak.
 
-Question 5
-Command:
+## Question 5
+#### Command:
   * cat chipotle.tsv | grep "Chicken Burrito" | grep "Pinto Beans" | wc -l
   * cat chipotle.tsv | grep "Chicken Burrito" | grep “Black Beans" | wc -l
 
-Answer: 
+#### Answer: 
   * 105 orders of chicken burritos with pinto beans; 282 orders of chicken burritos with black beans. Chicken burritos more often have black beans than pinto beans.
 
-Question 6
-Command:
+## Question 6
+#### Command:
   * find .. -name "*.csv" && find .. -name "*.tsv"
 
-Answer:  
+#### Answer:  
 
   * ../data/airlines.csv
   * ../data/bank-additional.csv
@@ -60,14 +60,14 @@ Answer:
   * ../data/chipotle.tsv
   * ../data/sms.tsv
 
-Question 7
-Command: 
+## Question 7
+#### Command: 
   * grep -r -i "dictionary" .. | wc -w
 
-Answer: 
+#### Answer: 
   * 1522 case-insensitive instances of “dictionary”
 
-Question 8
+## Question 8
   * 44% of orders of chips also had guac
 
   * number of orders of chips (1084)
