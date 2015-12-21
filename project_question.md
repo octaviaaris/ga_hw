@@ -1,7 +1,7 @@
 # Project Question
 
 #### What question do you hope to answer?
-Who will make the Women's Team USA roster for the 2016 World Ultimate Guts Championship?
+Who will make the Women's Team USA roster for the <a href="http://www.usaultimate.org/about/usaultimate/international/wugc_2016.aspx" target="_blank">2016 World Ultimate Guts Championship?</a>
 
 #### What data are you planning to use to answer that question?
 * All available goal, assist, D and turn statistics from USA Ultimate from 2013, 2014 and 2015
