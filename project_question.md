@@ -16,7 +16,7 @@ Who will make the Women's Team USA roster for the 2016 World Ultimate Guts Champ
 
 * Paper on how to quantify player contributions
  * http://www.sloansportsconference.com/wp-content/uploads/2014/02/2014-SSAC-Spatial-Statistics-to-Evaluate-Player-Contribution-in-Ultimate.pdf
- * 
+ 
 * Spirit scores from USA Ultimate 2013, 2014 and 2015
  * http://www.usaultimate.org/news/2013-national-championships--spirit-of-the-game/ (2013)
  * https://docs.google.com/spreadsheets/d/1rNFe0LByutCPMa1piiy6kvs9XfSIo84mFEtQWTweTj8/edit#gid=1573797822 (2014)
