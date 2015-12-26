@@ -5,7 +5,7 @@ Who will make the Women's Team USA roster for the <a href="http://www.usaultimat
 
 #### What data are you planning to use to answer that question?
 * All available goal, assist, D and turn statistics from USA Ultimate from 2013, 2014 and 2015
-  * <a href="http://www.usaultimate.org/news/2013-national-championships-statistics/ target="_blank">2013 Club Championships</a>
+  * <a href="http://www.usaultimate.org/news/2013-national-championships-statistics/" target="_blank">2013 Club Championships</a>
   * <a href="http://play.usaultimate.org/events/USA-Ultimate-National-Championships/schedule/Women/Club-Women/" target="_blank">2014 Club Championships</a> (by team)
   * <a href="http://play.usaultimate.org/events/USA-Ultimate-National-Championships-2015/schedule/Women/Club-Women/" target="_blank">2015 Club Championships</a> (by team)
   
