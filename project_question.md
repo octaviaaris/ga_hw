@@ -11,7 +11,7 @@ Who will make the Women's Team USA roster for the <a href="http://www.usaultimat
   
 * All available goal and assist statistics from Team USA and international championship games
  * <a href="http://wugc2012.japanultimate.jp/english/index.php/competition/schedule?lang=en&orurl=/pscore/scv_search_div/open/8" target="_blank">2012 WUGC</a>
- * <a href="http://www.wfdf.org/events/twg2013" target="_blank">2013 World Games</a>
+ * <a href="http://results.wfdf.org/?view=teamcard&Team=1469" target="_blank">2013 World Games</a>
  * <a href="http://wucc2014.wfdf.org/?view=scorestatus&Series=3" target="_blank">2014 WUCC</a>
 
 * Paper on how to quantify player contributions
