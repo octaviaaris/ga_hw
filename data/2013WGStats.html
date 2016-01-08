@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+		<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'><head>
+		<meta http-equiv="Content-Style-Type" content="text/css"/>
+		<meta http-equiv="Content-Script-Type" content="text/javascript"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="-1"/><link rel='icon' type='image/png' href='cust/wfdf/favicon.png' />
+		<title>WFDF Ultiorganizer - USA</title>
+		<link rel="stylesheet" href="cust/wfdf/layout.css" type="text/css" />
+		<link rel="stylesheet" href="cust/wfdf/font.css" type="text/css" />
+		<link rel="stylesheet" href="cust/wfdf/default.css" type="text/css" />
+<script type="text/javascript">
+<!--
+function checkAll(field)
+	{
+	var form = document.getElementById(field);
+		 
+		for (var i=1; i < form.elements.length; i++) 
+		{
+		 form.elements[i].checked = !form.elements[i].checked;
+		}
+	}
+
+function setId(id) 
+	{
+	var input = document.getElementById("hiddenDeleteId");
+	input.value = id;
+	}
+
+function changeseason(id){
+	var url = location.href;
+	
+	var param = "selseason";
+	var re = new RegExp("([?|&])" + param + "=.*?(&|$)","i");
+    if (url.match(re)){
+        url=url.replace(re,'$1' + param + "=" + id + '$2');
+    }else{
+        
+		if(location.href.search("view=") !=-1){
+			url = url + '&' + param + "=" + id;
+		}else{
+			url = url.substring(0,url.lastIndexOf('/'));
+			url = url + "/index.php?"+ param + "=" + id; 
+		}
+	}
+	location.href=url;
+}
+
+
+//-->
+</script></head><body style='overflow-y:scroll;' >
+<div class='page'>
+<div class='page_top'>
+<div class='top_banner_space'></div>
+<form action='?view=teamcard&amp;Team=1469' method='post'><table border='0' cellpadding='0' cellspacing='0' style='width:100%;white-space: nowrap;'><tr>
+<td class='topheader_left'>
+<a href='http://www.wfdf.org' class='header_text'><img class='header_logo' style='width:550px;height:50px' src='cust/wfdf/logo.jpg' alt='WFDF'/></a><br/>
+</td><td class='topheader_right'><table border='0' cellpadding='0' cellspacing='0' style='width:95%;white-space: nowrap;'>
+<tr><td class='right' style='vertical-align:top;'><a href='?view=teamcard&amp;Team=1469&amp;locale=en_GB.utf8'><img class='localeselection' src='locale/en_GB.utf8/flag.png' alt='en_GB.utf8'/></a>
+<a href='?view=teamcard&amp;Team=1469&amp;locale=fi_FI.utf8'><img class='localeselection' src='locale/fi_FI.utf8/flag.png' alt='fi_FI.utf8'/></a>
+</td></tr><tr>
+<td class='right' style='padding-top:5px'><input class='input' type='text' id='myusername' name='myusername' size='10' style='border:1px solid #555555'/>&nbsp;<input class='input' type='password' id='mypassword' name='mypassword' size='10' style='border:1px solid #555555'/>&nbsp;<input class='button' type='submit' name='login' value='Login' style='border:1px solid #000000'/>&nbsp;<span class='topheadertext'><a class='topheaderlink' href='?view=register'>New user?</a></span></td></tr>
+</table></td></tr></table></form>
+</div>
+<div class='navigation_bar'><p class='navigation_bar_text'> USA</p></div><div class='page_middle'>
+<table style='border:1px solid #fff;background-color: #ffffff;'><tr><td class='menu_left'><table><tr><td><form action='?view=index' method='get' id='seasonsels'><div><select class='seasondropdown' name='selseason'
+			onchange='changeseason(selseason.options[selseason.options.selectedIndex].value);'><option class='dropdown'  value='TWG2013'>World Games 2013 Ultimate</option><option class='dropdown'  value='2012_2'>WJUC 2012</option><option class='dropdown'  value='10555'>EUC 2011</option><option class='dropdown'  value='WU23UC2010'>WU23UC 2010</option><option class='dropdown'  value='WUCC2010'>WUCC 2010</option></select><noscript><div><input type='submit' value='Go' name='selectseason'/></div></noscript></div></form></td></tr></table><table class='leftmenulinks'>
+<tr><td class='menuseasonlevel'><a class='seasonnav' style='text-align:center;' href='?view=eventstatus&amp;Season=TWG2013'>World Games 2013 Ultimate</a></td></tr>
+<tr><td><a class='nav' href='?view=timetables&amp;Season=TWG2013'>Game schedule</a></td></tr>
+<tr><td><a class='nav' href='?view=played&amp;Season=TWG2013'>Played games</a></td></tr>
+<tr><td><a class='nav' href='?view=teams&amp;Season=TWG2013'>Teams</a></td></tr>
+<tr><td class='menuseparator'></td></tr>
+<tr><td class='menuserieslevel'><a class='subnav' href='?view=seriesstatus&amp;Series=1019'>Mixed</a></td></tr>
+<tr><td class='menupoollevel'>
+<a class='navpoollink' href='?view=poolstatus&amp;Pool=1267'>&raquo; Gold</a>
+</td></tr>
+<tr><td class='menupoollevel'>
+<a class='navpoollink' href='?view=poolstatus&amp;Pool=1266'>&raquo; Bronze</a>
+</td></tr>
+<tr><td class='menupoollevel'>
+<a class='navpoollink' href='?view=poolstatus&amp;Pool=1265'>&raquo; Pre-Round</a>
+</td></tr>
+</table>
+<table class='leftmenulinks'>
+<tr><td class='menuseasonlevel'>Event Links</td></tr>
+<tr><td></td></tr>
+<tr><td><a class='subnav' style='background: url(./images/linkicons/feed_14x14.png) no-repeat 0 50%; padding: 0 0 0 19px;' href='./ext/rss.php?feed=all'>Result Feed</a>
+</td></tr>
+</table>
+<table class='leftmenulinks'>
+<tr><td class='menuseasonlevel'>Statistics</td></tr>
+<tr><td><a class='subnav' href="?view=seasonlist">&raquo; Events</a>
+<a class='subnav' href="?view=allplayers">&raquo; Players</a>
+<a class='subnav' href="?view=allteams">&raquo; Teams</a>
+<a class='subnav' href="?view=allclubs">&raquo; Clubs</a>
+<a class='subnav' href="?view=allcountries">&raquo; Countries</a>
+<a class='subnav' href="?view=statistics">&raquo; All time</a></td></tr>
+</table><table class='leftmenulinks'>
+<tr><td class='menuseasonlevel'>Client access</td></tr>
+<tr><td><a class='subnav' href="?view=ext/index">&raquo; Ultiorganizer links</a>
+<a class='subnav' href="?view=ext/export">&raquo; Data export</a>
+<a class='subnav' href="?view=mobile/index">&raquo; Mobile Administration</a>
+</td></tr>
+</table><table class='leftmenulinks'>
+<tr><td class='menuseasonlevel'>Links</td></tr>
+<tr><td><a class='subnav' href='http://www.wfdf.org/'>&raquo; World Flying Disc Federation</a>
+<a class='subnav' href='http://sourceforge.net/apps/trac/ultiorganizer/'>&raquo; Powered by Ultiorganizer</a>
+<a class='subnav' href='mailto:kari.tolonen@mail.suomi.net'>@ Feedback about scoring system</a>
+</td></tr>
+</table><table style='width:90%'>
+<tr><td class='guides'><a href='?view=user_guide'>User Guide</a> | 
+<a href='?view=privacy'>Privacy Policy</a>
+</td></tr></table></td>
+
+<td align='left' valign='top' class='tdcontent'><div class='content'>
+<h1>USA (Mixed)</h1><p><img height='10' src='images/flags/tiny/United_States_of_America.png' alt=''/>&nbsp;<a class='headerlink' href='?view=countrycard&amp;Country=1196'>United States</a></p><table style='width:100%'><tr><td colspan='2'><a href='images/uploads/teams/1469/13746217101469.jpg'><img src='images/uploads/teams/1469/thumbs/13746217101469.jpg' alt='Profile image'/></a></td></tr>
+</table><table style='width:100%'><tr><td colspan='2' class='profileheader' style='vertical-align:top'>Team pages:</td></tr><tr><td style='width:18px'><img width='16' height='16' src='images/linkicons/homepage.png' alt='homepage'/> </td><td><a href='http://usaultimatewg2013.wordpress.com'>2013 USA Ultimate World Games Team</a></td></tr></table><p><span class='profileheader'>World Games 2013 Ultimate roster:</span></p>
+<table style='width:80%'>
+<tr><th style='width:40%'>Name</th>
+	<th class='center' style='width:15%'>Games</th>
+	<th class='center' style='width:15%'>Passes</th>
+	<th class='center' style='width:15%'>Goals</th>
+	<th class='center' style='width:15%'>Tot.</th></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9570'>#24 Alex Snyder</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>10</td><td class='center'>1</td><td class='center'>11</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9559'>#27 Ashlin Joye</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>6</td><td class='center'>3</td><td class='center'>9</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9560'>#50 Beau Kittredge</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>7</td><td class='center'>15</td><td class='center'>22</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9561'>#5 Cara Crouch</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>3</td><td class='center'>2</td><td class='center'>5</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9563'>#78 Dylan Tunnell</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>12</td><td class='center'>3</td><td class='center'>15</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9564'>#3 George Stubbs</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>7</td><td class='center'>9</td><td class='center'>16</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9565'>#19 Georgia Bosscher</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>3</td><td class='center'>3</td><td class='center'>6</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9566'>#40 Mac Taylor</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>17</td><td class='center'>7</td><td class='center'>24</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9567'>#18 Michael Natenberg</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>5</td><td class='center'>7</td><td class='center'>12</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9568'>#9 Octavia Payne</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>1</td><td class='center'>4</td><td class='center'>5</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9571'>#16 Ryan Farrell</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>6</td><td class='center'>6</td><td class='center'>12</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9569'>#6 Sarah Griffith</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>0</td><td class='center'>11</td><td class='center'>11</td></tr>
+<tr><td><a href='?view=playercard&amp;Series=0&amp;Player=9562'>#13 Virginia Howard</a>&nbsp;<img width='10' height='10' src='images/linkicons/image.png' alt='Photo'/></td><td class='center'>6</td><td class='center'>0</td><td class='center'>6</td><td class='center'>6</td></tr>
+</table>
+<h2>World Games 2013 Ultimate:</h2>
+<p>Division: <a href='?view=poolstatus&amp;Series=1019'>Mixed</a></p><table style='width:80%'>
+<tr style='width:100%'>
+<td style='width:120px'><span>USA</span></td>
+<td style='width:5px'>-</td>
+<td style='width:120px'><span>Australia</span></td>
+<td style='width:15px'><span>13</span></td>
+<td style='width:5px'><span>-</span></td>
+<td style='width:15px'><span>8</span></td>
+<td style='width:50px'></td>
+<td style='width:40px;white-space: nowrap;'></td>
+<td class='right' style='width:80px'><span>&nbsp;<a href='?view=gameplay&amp;Game=2417'>Game play</a></span></td>
+</tr>
+<tr style='width:100%'>
+<td style='width:120px'><span>USA</span></td>
+<td style='width:5px'>-</td>
+<td style='width:120px'><span>Canada</span></td>
+<td style='width:15px'><span>13</span></td>
+<td style='width:5px'><span>-</span></td>
+<td style='width:15px'><span>8</span></td>
+<td style='width:50px'></td>
+<td style='width:40px;white-space: nowrap;'></td>
+<td class='right' style='width:80px'><span>&nbsp;<a href='?view=gameplay&amp;Game=2413'>Game play</a></span></td>
+</tr>
+<tr style='width:100%'>
+<td style='width:120px'><span>Colombia</span></td>
+<td style='width:5px'>-</td>
+<td style='width:120px'><span>USA</span></td>
+<td style='width:15px'><span>7</span></td>
+<td style='width:5px'><span>-</span></td>
+<td style='width:15px'><span>13</span></td>
+<td style='width:50px'></td>
+<td style='width:40px;white-space: nowrap;'></td>
+<td class='right' style='width:80px'><span>&nbsp;<a href='?view=gameplay&amp;Game=2409'>Game play</a></span></td>
+</tr>
+<tr style='width:100%'>
+<td style='width:120px'><span>Japan</span></td>
+<td style='width:5px'>-</td>
+<td style='width:120px'><span>USA</span></td>
+<td style='width:15px'><span>9</span></td>
+<td style='width:5px'><span>-</span></td>
+<td style='width:15px'><span>12</span></td>
+<td style='width:50px'></td>
+<td style='width:40px;white-space: nowrap;'></td>
+<td class='right' style='width:80px'><span>&nbsp;<a href='?view=gameplay&amp;Game=2404'>Game play</a></span></td>
+</tr>
+<tr style='width:100%'>
+<td style='width:120px'><span>Great Britain</span></td>
+<td style='width:5px'>-</td>
+<td style='width:120px'><span>USA</span></td>
+<td style='width:15px'><span>9</span></td>
+<td style='width:5px'><span>-</span></td>
+<td style='width:15px'><span>13</span></td>
+<td style='width:50px'></td>
+<td style='width:40px;white-space: nowrap;'></td>
+<td class='right' style='width:80px'><span>&nbsp;<a href='?view=gameplay&amp;Game=2416'>Game play</a></span></td>
+</tr>
+<tr style='width:100%'>
+<td style='width:120px'><span>USA</span></td>
+<td style='width:5px'>-</td>
+<td style='width:120px'><span>Australia</span></td>
+<td style='width:15px'><span>13</span></td>
+<td style='width:5px'><span>-</span></td>
+<td style='width:15px'><span>6</span></td>
+<td style='width:50px'></td>
+<td style='width:40px;white-space: nowrap;'></td>
+<td class='right' style='width:80px'><span>&nbsp;<a href='?view=gameplay&amp;Game=2419'>Game play</a></span></td>
+</tr>
+</table>
+<h2>History:</h2>
+<table border='1' width='100%'><tr>
+	<th>Event type</th>
+	<th>Games</th>
+	<th>Wins</th>
+	<th>Losses</th>
+	<th>Win-%</th>
+	<th>Goals for</th>
+	<th>GF/game</th>
+	<th>Goals against</th>
+	<th>GA/game</th>
+	<th>Goal diff</th>
+	</tr><tr><td>Outdoor</td><td>6</td><td>6</td><td>0</td><td>100.0 %</td><td>77</td><td>12.8</td><td>47</td><td>7.8</td><td>30</td></tr><tr class='highlight'><td>Total</td><td>6</td><td>6</td><td>0</td><td>100.0 %</td><td>77</td><td>12.8</td><td>47</td><td>7.8</td><td>30</td></tr></table><table style='white-space: nowrap;' border='1' cellspacing='0' width='100%'><tr>
+		<th>Event</th>
+		<th>Division</th>
+		<th>Pos.</th>
+		<th>Games</th>
+		<th>Wins</th>
+		<th>Losses</th>
+		<th>Win-%</th>
+		<th>Goals for</th>
+		<th>GF/game</th>
+		<th>Goals against</th>
+		<th>GA/game</th>
+		<th>Goal diff</th>
+		</tr><tr class='highlight'><td>World Games 2013 Ultimate</td><td>Mixed</td><td>1</td><td>6</td><td>6</td><td>0</td><td>100.0%</td><td>77</td><td>12.8</td><td>47</td><td>7.8</td><td>30</td></tr></table><p></p>
+</div></td></tr></table></div>
+<div class='page_bottom'></div></div></body></html>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33909883-1']);
+  _gaq.push(['_setDomainName', 'wfdf.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
