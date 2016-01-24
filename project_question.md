@@ -19,7 +19,7 @@ Who will make the Women's Team USA roster for the <a href="http://www.usaultimat
  
 * Spirit scores from USA Ultimate 2013, 2014 and 2015
  * <a href="http://www.usaultimate.org/news/2013-national-championships--spirit-of-the-game/" target="_blank">2013 Club Championships</a>
- * <a href="https://docs.google.com/spreadsheets/d/1rNFe0LByutCPMa1piiy6kvs9XfSIo84mFEtQWTweTj8/edit#gid=1573797822" target="_blank">2014 Club Championships</a>
+ * <a href="http://play.usaultimate.org/events/usa-ultimate-national-championships-2015/" target="_blank">2014 Club Championships</a>
  * <a href="https://docs.google.com/spreadsheets/d/1QeZaZNdNKHjeg2w0cVdaGJvqmQOfNMl9UEfgFad47F0/edit#gid=1731770358" target="_blank">2015 Club Championships</a>
 
 #### What do you know about the data so far?
