@@ -19,8 +19,8 @@ Who will make the Women's Team USA roster for the <a href="http://www.usaultimat
  
 * Spirit scores from USA Ultimate 2013, 2014 and 2015
  * <a href="http://www.usaultimate.org/news/2013-national-championships--spirit-of-the-game/" target="_blank">2013 Club Championships</a>
- * <a href="http://play.usaultimate.org/events/usa-ultimate-national-championships-2015/" target="_blank">2014 Club Championships</a>
- * <a href="https://docs.google.com/spreadsheets/d/1QeZaZNdNKHjeg2w0cVdaGJvqmQOfNMl9UEfgFad47F0/edit#gid=1731770358" target="_blank">2015 Club Championships</a>
+ * <a href="http://play.usaultimate.org/events/usa-ultimate-national-championships/" target="_blank">2014 Club Championships</a>
+ * <a href="http://play.usaultimate.org/events/usa-ultimate-national-championships-2015/" target="_blank">2015 Club Championships</a>
 
 #### What do you know about the data so far?
 Head Coach Matty Tsang and Assistant Coach Andrew Lovseth, have coached two perennial powerhouse teams (in the San Fracisco Fury and Seattle Riot respectively) for the past several years. Both (particularly Coach Tsang) are noted to use even subbing strategies despite both Fury and Riot being filled with players considered some of the best in the division--athletically and skills-wise. Even players on those teams widely regarded as "all-stars" do not stand out statistically above the rest.
