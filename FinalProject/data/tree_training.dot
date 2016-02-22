@@ -1,0 +1,11 @@
+digraph Tree {
+0 [label="BPG <= 1.5079\nmse = 0.0212665406427\nsamples = 414", shape="box"] ;
+1 [label="APG <= 1.8919\nmse = 0.0189952453259\nsamples = 413", shape="box"] ;
+0 -> 1 ;
+2 [label="mse = 0.0122\nsamples = 404\nvalue = [ 0.01237624]", shape="box"] ;
+1 -> 2 ;
+3 [label="mse = 0.2222\nsamples = 9\nvalue = [ 0.33333333]", shape="box"] ;
+1 -> 3 ;
+4 [label="mse = 0.0000\nsamples = 1\nvalue = [ 1.]", shape="box"] ;
+0 -> 4 ;
+}
